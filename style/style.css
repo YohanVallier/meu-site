@@ -112,3 +112,12 @@ body {
     justify-content: center;
 }
 
+@media (max-width:1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
